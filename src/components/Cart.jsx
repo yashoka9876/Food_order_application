@@ -20,11 +20,13 @@ export default function Cart(){
     );
 
     function handleCloseCart(){
-        userProgressCtx.hideCart()
+        userProgressCtx.hideCart();
+        console.log("now you are uisn escaplation button");
     }
 
     function handleGoToCheckout(){
         userProgressCtx.showCheckout();
+        console.log("This is from go to checkout");
     }
 
 
